@@ -1,7 +1,51 @@
-#churchonline_counter { overflow: auto; width: 200px; padding: 10px; }
-#churchonline_counter .description, #churchonline_counter .time li .label { font-size: 0.8em; }
-#churchonline_counter .time { list-style: none; padding: 0; margin: 10px 0 0 0; }
-#churchonline_counter .time li { float: left; padding: 0 10px; text-align: center; }
-#churchonline_counter .time li:first-child { padding-left: 0; }
-#churchonline_counter .time li span { font-size: 1.2em; }
-#churchonline_counter .live { display: none; font-weight: bold; }
+#countdown {
+  overflow: auto;
+  width: 400px;
+  padding: 10px;
+}
+
+#countdown .description,
+#countdown .time li .label {
+  font-size: 0.8em;
+}
+
+#countdown .time {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+#countdown .time li {
+  float: left;
+  padding: 0 10px;
+  text-align: center;
+}
+
+#countdown .time li:first-child {
+  padding-left: 0;
+}
+
+#countdown .time li span {
+  font-size: 1.2em;
+}
+#countdown .time li {
+  text-align: center;
+  padding: 4px;
+  margin-inline-end: 4px;
+  border-radius: 4px;
+  height: auto;
+  min-height: 64px;
+  width: 96px;
+}
+#countdown .live {
+  display: none;
+  font-weight: bold;
+}
+.btn-live {
+  display: inline;
+  color: #ffffff;
+  margin: 0px 10px;
+  padding: 2px 12px 2px 12px;
+  background-color: #741315;
+  border: none;
+}
