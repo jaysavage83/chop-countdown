@@ -1,34 +1,34 @@
-##churchonline_counter {
+#churchonline_counter {
   overflow: auto;
   width: 400px;
   padding: 10px;
 }
 
-##churchonline_counter .description,
-##churchonline_counter .time li .label {
+#churchonline_counter .description,
+#churchonline_counter .time li .label {
   font-size: 0.8em;
 }
 
-##churchonline_counter .time {
+#churchonline_counter .time {
   list-style: none;
   padding: 0;
   margin: 10px 0 0 0;
 }
 
-##churchonline_counter .time li {
+#churchonline_counter .time li {
   float: left;
   padding: 0 10px;
   text-align: center;
 }
 
-##churchonline_counter .time li:first-child {
+#churchonline_counter .time li:first-child {
   padding-left: 0;
 }
 
-##churchonline_counter .time li span {
+#churchonline_counter .time li span {
   font-size: 1.2em;
 }
-##churchonline_counter .time li {
+#churchonline_counter .time li {
   text-align: center;
   padding: 4px;
   margin-inline-end: 4px;
@@ -37,7 +37,7 @@
   min-height: 64px;
   width: 96px;
 }
-##churchonline_counter .live {
+#churchonline_counter .live {
   display: none;
   font-weight: bold;
 }
