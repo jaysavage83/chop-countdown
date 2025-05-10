@@ -1,4 +1,4 @@
-r$(function () {
+$(function () {
     var days;
     var hours;
     var minutes;
