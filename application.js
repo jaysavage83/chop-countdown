@@ -1,4 +1,4 @@
-$(function () {
+r$(function () {
     var days;
     var hours;
     var minutes;
@@ -11,7 +11,7 @@ $(function () {
     }
 
     $.ajax({
-      url: "https://live.jaygreentree.org/v1/events/curent.json",
+      url: "https://live.jaygreentree.org/v1/events/current.json",
       success: function (data) {
         $('#churchonline_counter').show();
 
